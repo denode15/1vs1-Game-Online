@@ -1,5 +1,5 @@
 # E-Card_Gane
-Download modules with: npm init
+Download modules with: npm install
 #
 Run the server with: npm run dev
 
