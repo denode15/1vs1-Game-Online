@@ -6,4 +6,4 @@ Run the server with: npm run dev
 NodeJS and npm
 
 # 
-Credits for player images:https://www.spriters-resource.com/custom_edited/dragonballcustoms/sheet/16603/
+Credits for player's images:https://www.spriters-resource.com/custom_edited/dragonballcustoms/sheet/16603/
