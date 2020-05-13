@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>1vs1 Game</title>
+		<link rel = "stylesheet" href = "styles.css">
+	</head>
+	<body class = "zoomGame">
+		<div class = "centered-form-game">
+		<div class = "centered-form-game__box">
+			<canvas height = "720" width = "1280" id = "canvas-id" style = "border: 1px solid black; position: absolute">  </canvas>
+			<canvas height = "720" width = "1280" id = "canvas-id-2" style = "border: 1px solid black; position: absolute">  </canvas>
+			</div>
+		</div>
+		<div style = "display: none">
+			<img src="assets/Background/background1.png" id = "background1">
+			<img src="assets/Background/background2.png" id = "background2">
+			<img src="assets/Background/background3.png" id = "background3">
+			<img src="assets/Background/background4.png" id = "background4">
+			<img src="assets/Background/background5.png" id = "background5">
+			<img src="assets/Background/background6.png" id = "background6">
+			<img src="assets/Background/background7.png" id = "background7">
+			<img src="assets/Background/background0.png" id = "background0">
+
+			<img src="assets/Player1/Standing/0.png" id = "standing0">
+			<img src="assets/Player1/Standing/1.png" id = "standing1">
+			<img src="assets/Player1/Standing/2.png" id = "standing2">
+			<img src="assets/Player1/Standing/3.png" id = "standing3">
+			<img src="assets/Player1/Standing/0Left.png" id = "standing0Left">
+			<img src="assets/Player1/Standing/1Left.png" id = "standing1Left">
+			<img src="assets/Player1/Standing/2Left.png" id = "standing2Left">
+			<img src="assets/Player1/Standing/3Left.png" id = "standing3Left">
+
+			<img src="assets/Player1/Running/0.png" id = "running0">
+			<img src="assets/Player1/Running/1.png" id = "running1">
+			<img src="assets/Player1/Running/2.png" id = "running2">
+			<img src="assets/Player1/Running/3.png" id = "running3">
+			<img src="assets/Player1/Running/0Left.png" id = "running0Left">
+			<img src="assets/Player1/Running/1Left.png" id = "running1Left">
+			<img src="assets/Player1/Running/2Left.png" id = "running2Left">
+			<img src="assets/Player1/Running/3Left.png" id = "running3Left">
+
+			<img src="assets/Player1/Jumping/0.png" id = "jumping0">
+			<img src="assets/Player1/Jumping/1.png" id = "jumping1">
+			<img src="assets/Player1/Jumping/0Left.png" id = "jumping0Left">
+			<img src="assets/Player1/Jumping/1Left.png" id = "jumping1Left">
+
+			<img src="assets/Player1/Down/0.png" id = "down0">
+			<img src="assets/Player1/Down/0Left.png" id = "down0Left">
+
+			<img src="assets/Player1/1st_Attack/0.png" id = "first_attack0">
+			<img src="assets/Player1/1st_Attack/1.png" id = "first_attack1">
+			<img src="assets/Player1/1st_Attack/2.png" id = "first_attack2">
+			<img src="assets/Player1/1st_Attack/3.png" id = "first_attack3">
+			<img src="assets/Player1/1st_Attack/0Left.png" id = "first_attack0Left">
+			<img src="assets/Player1/1st_Attack/1Left.png" id = "first_attack1Left">
+			<img src="assets/Player1/1st_Attack/2Left.png" id = "first_attack2Left">
+			<img src="assets/Player1/1st_Attack/3Left.png" id = "first_attack3Left">
+
+			<img src="assets/Player1/Attacked/0.png" id = "attacked">
+			<img src="assets/Player1/Attacked/0Left.png" id = "attackedLeft">
+
+			<img src="assets/Player1/Kamehameha/0.png" id = "kame0">
+			<img src="assets/Player1/Kamehameha/1.png" id = "kame1">
+			<img src="assets/Player1/Kamehameha/2.png" id = "kame2">
+			<img src="assets/Player1/Kamehameha/3.png" id = "kame3">
+			<img src="assets/Player1/Kamehameha/4.png" id = "kame4">
+			<img src="assets/Player1/Kamehameha/5.png" id = "kame5">
+			<img src="assets/Player1/Kamehameha/6.png" id = "kame6">
+			<img src="assets/Player1/Kamehameha/7.png" id = "kame7">
+			<img src="assets/Player1/Kamehameha/0Left.png" id = "kame0Left">
+			<img src="assets/Player1/Kamehameha/1Left.png" id = "kame1Left">
+			<img src="assets/Player1/Kamehameha/2Left.png" id = "kame2Left">
+			<img src="assets/Player1/Kamehameha/3Left.png" id = "kame3Left">
+			<img src="assets/Player1/Kamehameha/4Left.png" id = "kame4Left">
+			<img src="assets/Player1/Kamehameha/5Left.png" id = "kame5Left">
+			<img src="assets/Player1/Kamehameha/6Left.png" id = "kame6Left">
+			<img src="assets/Player1/Kamehameha/7Left.png" id = "kame7Left">
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+		<script src = "/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src = "js/canvas.js"></script>
+		<script src = "js/game.js"> </script>
+	</body>
+</html>
