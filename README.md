@@ -1,4 +1,4 @@
-# E-Card_Gane
+# 1vs1 Game
 Download the modules with: npm install
 #
 Run the server with: npm run dev
